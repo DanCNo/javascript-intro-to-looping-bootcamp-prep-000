@@ -10,11 +10,12 @@ function forLoop(array){
     
     else {
       array[i] = `I am ${i} strange loops.`;
+      console.log(array[i]);
     }
     
   }
   return array;
 }
 
-//var test = [];
-//function forLoop(test)
+var test = [];
+forLoop(test);
