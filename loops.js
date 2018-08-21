@@ -17,4 +17,4 @@ function forLoop(array){
 }
 
 var test = [];
-function forLoop(test);
+function forLoop(test)
