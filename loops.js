@@ -9,14 +9,14 @@ function forLoop(array){
     }
     
     else {
-      array[i] = "I am ${i} strange loops.";
+      array[i] = `I am ${i} strange loops.`;
     }
     
   }
   return array;
 }
 
-//var test = [];
-//forLoop(test);
-//console.log(test[1]);
-//console.log(test[11]);
+var test = [];
+forLoop(test);
+console.log(test[1]);
+console.log(test[24]);
