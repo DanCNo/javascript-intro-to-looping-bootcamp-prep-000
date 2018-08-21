@@ -9,8 +9,7 @@ function forLoop(array){
     }
     
     else {
-      array[i] = `I am ${i} strange loops.`;
-      console.log(array[i]);
+      array[i] = "I am ${i} strange loops.";
     }
     
   }
