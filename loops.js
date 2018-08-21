@@ -16,11 +16,6 @@ function forLoop(array){
   return array;
 }
 
-//var test = [1, 2, 3, 4];
-//forLoop(test);
-//console.log(test[1]);
-//console.log(test[24]);
-
 function whileLoop(number){
   while(number > 0){
     console.log(number);
@@ -28,4 +23,8 @@ function whileLoop(number){
   }
   
   return 'done';
-}  
+}
+
+function doWhileLoop(array){
+  
+}
