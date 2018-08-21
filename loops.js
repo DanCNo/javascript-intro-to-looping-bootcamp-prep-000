@@ -20,3 +20,12 @@ function forLoop(array){
 //forLoop(test);
 //console.log(test[1]);
 //console.log(test[24]);
+
+function whileLoop(number){
+  while(number > 0){
+    console.log(number);
+    number--;
+  }
+  
+  return 'done';
+}  
