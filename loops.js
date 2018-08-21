@@ -19,3 +19,5 @@ function forLoop(array){
 
 var test = [];
 forLoop(test);
+console.log(test[1]);
+console.log(test[11]);
